@@ -1,0 +1,317 @@
+#main-header{
+
+    position:absolute;
+    top:90px;
+    right:5px;
+
+}
+
+.pull-right{
+    text-align:right;
+}
+
+#middle-navigation ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#middle-navigation li{        /* 三个颜色块排序  */
+    float:right;
+    margin-left:1px;
+}
+
+#middle-navigation>ul>li>a{
+    float: right;
+    width: 70px;
+    height:70px;
+    display:block;
+    background:#34495e;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+    font-size:13px;
+}
+
+.middleNavigateColor{
+    background-color: aliceblue;
+    width: 360px;
+}
+
+
+
+#middle-navigation>ul>li>a.orange:hover{
+    background:#2c3e50;
+}
+#middle-navigation>ul>li:hover ul{
+    /*display:block;*/
+    width:auto;
+    height:auto;
+    opacity:1;
+    top:100%;
+}
+
+li.blue>a,
+input.blue,
+.button.blue,
+#main-navigation li.blue li,
+span.product-action.blue{
+    background:#3498db!important;
+}
+
+
+li.red>a,
+input.red,
+.button.red,
+#main-navigation li.red li,
+span.product-action.red{
+    background:#e74c3c!important;
+}
+
+li.orange>a,
+input.orange,
+.button.orange,
+#main-navigation li.orange li,
+span.product-action.orange{
+    background:#f5791f!important;
+}
+
+li.orange>a:hover,
+#main-navigation .orange ul.wide-dropdown ul a:hover,
+input.orange:hover,
+.button.orange:hover,
+li.orange.current-item>a,
+li.orange.current-item,
+.icons.orange:hover,
+span.product-action.orange:hover{
+    background:#d35400!important;
+}
+
+.box-dropdown{
+    /*position:right;*/
+    z-index:5000;
+    right:0;
+    line-height:20px;
+    top:200%;
+    padding-top:13px;
+    overflow:hidden;
+    width:0;
+    height:0;
+    opacity:0;
+    /*transition:all 0.3s;*/
+    /*-webkit-transition:all 0.3s;*/
+    /*-moz-transition:all 0.3s;*/
+    /*-ms-transition:all 0.3s;*/
+    /*-o-transition:all 0.3s;*/
+}
+
+
+li.orange .parent-border{
+    border-color:#f5791f;
+}
+
+.box-dropdown .box-wrapper{
+    border-top:3px solid #34495e;
+    background:#fff;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    padding:10px 15px 15px;
+}
+
+.cart-table{
+    width:300px;
+    font-size:13px;
+}
+
+.cart-table td{
+    padding:10px 0;
+}
+
+.cart-table img{
+    width:60px;
+}
+
+.cart-table p{
+    font-size:13px;
+    color:#7a8188;
+    margin:0;
+}
+
+.align-right{
+    text-align:right;
+}
+
+#Checkout{
+    background: #37a2d5;
+    text-align:right;
+}
+#ViewCart{
+    background: #37a2d5;
+    text-align:right;
+}
+
+.AppleImage{
+    position:absolute;
+    top : 190px;
+    right:0;
+    z-index:-1;
+}
+.AppleImage img{
+    width:100%;
+}
+#product{
+    position:absolute;
+    top:600px;
+    left:0;
+}
+#product_cat{
+    position:absolute;
+    top:200px;
+    left:0;
+}
+
+.divFloat{
+    float:left;
+}
+
+
+.sidebar-box-heading{
+    color:#fff;
+
+    background:#34495e;
+
+    height:50px;
+    padding:12px 20px 12px 40px;
+}
+
+#sidebar-box-context1{
+    background:#fff;
+    position: absolute;
+    top: 600px;
+    right:0
+}
+#sidebar-box-context2{
+    background:#fff;
+    position: absolute;
+    top: 200px;
+    right:0
+}
+
+#lower-footer{
+    text-align: center;
+    padding:20px;
+    position:absolute;
+    top:1200px;
+    left:30%;
+}
+#footer{
+    text-align: center;
+    padding:20px;
+    position:absolute;
+    top:800px;
+    left:30%;
+}
+
+#product_info{
+    background:#37a2d5;
+    /*position:absolute;*/
+    /*top:510px;*/
+    /*left:50px;*/
+    float:left;
+}
+
+#SingleProduct{
+    position:static;
+    background-color: aliceblue;
+}
+
+#product-actions-single{
+    background:#37a2d5;
+    /*position:absolute;*/
+    /*top:610px;*/
+    /*left:50px;*/
+    float:left;
+}
+#product_detail{
+    background:#37a2d5;
+    position:absolute;
+    top:23%;
+    left:36%;
+    width:331px;
+    height:326px;
+    text-align: center;
+}
+
+/*nav button{background-color:#FFD700; float:right; color: white; position:absolute; right:15px;*/
+    /*padding: 7px 10px; margin:10px; text-align:center; font-size:15px}*/
+/*nav div{display:none}*/
+/*nav:hover div{display:block; position:absolute; right:135px;; width:400px; height:300px;background: white;border:1px solid #FFA500;z-index:2; }*/
+/*nav #shopping cart {background-color:#FFD600; float:right; color: white; position:absolute; left: 1150px; top: 192px; padding: 6px 10px; font-size:18px}*/
+nav:hover #check_out{background-color:#FFD600; float:right; color: white; float:right; margin:3px; padding: 6px 8px; text-align:center; font-size:14px}
+nav div{display:none}
+nav:hover #remove {background-color:#FFD700; float:right; color: white; padding: 4px 4px; margin:1px; text-align:center; font-size:14px}
+nav:hover div {display:block; background: white; position:absolute; left: 800px; top: 100px; width:520px; height:260px; border:2px solid #FF5500; z-index:2}
+nav:hover div table {width: 100%}
+nav:hover div input.count{width:30px}
+nav:hover input.minus{text-align:left; width:20px; }
+nav:hover input.add{text-align:left; width:20px;}
+nav #cartButton{background-color: #00FFFF; float:right; color: white; position:absolute; right:15px;
+     margin-top:10px; text-align:center; font-size:15px; margin-bottom: 30px}
+
+/*ul.productUL{width:80%;  height:100%;  position:relative; left:250px; z-index:1; margin-top:45px;*/
+    /*padding:0;  list-style:none;  overflow:auto}*/
+/*ul.productUL li{width:400px;  height:390px;  float:left;  margin:20px}*/
+/*!*ul.productUL li:nth-child(1){border:2px solid #FFD770}!*for product image*!*!*/
+/*ul.productUL img{width:100%; height:100%}*/
+/*ul.productUL button{padding: 5px 8px; float:left; text-align:center;*/
+    /*font-size:13px;  background-color: #FFA500; color:white} !*button: AddToCart*!*/
+/*.hide{display:none}*/
+/*#hide{display:none}*/
+
+/*ul.products_table {width:80%;  height:100%;  position:relative; left:260px; z-index:1; margin-top:60px; padding:0; list-style:none; overflow:auto; font-size: 16px}*/
+/*ul.products_table li {width:200px;  height:300px;  float:left;  margin:10px; border:5px solid #FFF;  text-align:center; line-height: 22px}*/
+/*ul.products_table button {padding: 3px 5px; float: right; text-align:center; font-size:14px;  background-color: #FFAB00;  color:white;}*/
+/*ul.products_table img {width:100%}*/
+/*nav:hover div{display:block; overflow-y:scroll; position:absolute; right:120px; margin-top:25px;*/
+    /*width:400px; height:300px; border:1px solid #FFA500; z-index:2; background: white}*/
+
+/*nav:hover ul li{width:100%; height:60px; position:absolute; left:10px; list-style:none; z-index:2}*/
+/*nav:hover ul input.Box2{width:40px; height:14px; position:absolute; left:220px}*/
+/*nav:hover ul input.endBox{width:30px; height:14px; position:absolute; left:270px; border:0}*/
+/*Shopping Cart style*/
+/*nav button{background-color:#FFD700; float:right; color: white; position:absolute; right:15px;*/
+    /*padding: 7px 10px; margin-top:10px; text-align:center; font-size:15px; margin-bottom: 30px}*/
+/*nav div{display:none}*/
+/*nav:hover #checkout{background-color:#FFD700; color: white; float:right;*/
+    /*padding: 5px 5px; margin:3px; text-align:center; font-size:13px}*/
+/*nav:hover #remove{background-color:#FFD700; float:right; color: white;*/
+    /*padding: 5px 5px; margin:1px; text-align:center; font-size:12px}*/
+/*nav:hover div{display:block; overflow-y:scroll; position:absolute; right:120px; margin-top:25px;*/
+    /*width:400px; height:300px; border:1px solid #FFA500; z-index:2; background: white}*/
+/*nav:hover div table{width: 100%}*/
+/*nav:hover div input.count{width:25px}*/
+/*nav:hover input.min{text-align:left; width:20px}*/
+/*nav:hover input.add{text-align:left; width:20px}*/
+/*nav:hover tr td:nth-child(4){text-align: center}*/
+.button {
+    background-color: white;
+    border: 4px solid #ACB4BE;
+    color: #536277;
+    display: inline-block;
+    float: right;
+    font-size: 30px;
+    padding: 8px 21px;
+    text-align: center;
+    text-decoration: none;}
+:nth-child(3) {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 0;
+    color: #A9B1BB;
+}
+:nth-child(1) {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 0;
+}
